@@ -7,3 +7,11 @@
     * [Linkedin](https://www.linkedin.com/feed/)
   
 2. I am from Minsk. I am 33 years old. I have graduated from Belarussian State University, Mechanics and Mathematics faculty.
+
+3. Skills:
+    * Java
+    * JavaScript
+    * HTML/CSS
+    * Git
+    * Figma
+    * Photoshop
