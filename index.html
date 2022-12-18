@@ -2,119 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Dmitry Gurinovich - My CV</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Dmitry Gurinovich - My CV</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="wrapper">
-
-            <div class="header">
-
-                <div class="nav">
-                    <ul>
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Education</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Code example</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contakts</a></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="main">
-                <div class="author_information">
-                    <div class="main_photo">
-                        <img src="/img/photo.jpg" alt="Author's photo">
-                    </div>
-                    <div class="main_information">
-                        <h1 class="title">Dmitry Gurinovich</h1>
-                        <div class="subtitle">Front-end developer</div>
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="left-info-column">
-                        <h2 class="info-column-title">Contacts</h2>
-                        <div class="info-column">
-                            <ul>
-                                <li><a href="mailto:dmitry.gurinovich@hotmail.com">E-mail</a></li>
-                                <li><a href="https://t.me/dmitry_gurinovich">Telegram</a></li>
-                                <li><a href="https://www.facebook.com/gurinovich.dmitry" target="_blank">Facebook</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <h2 class="info-column-title">Location</h2>
-                        <div class="info-column">
-                            <p>Minsk</p>
-                        </div>
-                        <h2 class="info-column-title">Education</h2>
-                        <div class="info-column">
-                            <p>Belarusian State University, <br>
-                                Faculty of Mechanics and Mathematics</p>
-                        </div>
-                    </div>
-                    <div class="right-info-column">
-                        <h2 class="info-column-title">About me</h2>
-                        <div class="info-column">
-                            <p>I am from Minsk. I am 33 years old. I have graduated from Belarussian State University,
-                                Mechanics and Mathematics faculty.</p>
-                        </div>
-                        <h2 class="info-column-title">Skills</h2>
-                        <div class="info-column">
-                            <ul>
-                                <li>Java</li>
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                                <li>Git</li>
-                                <li>Figma</li>
-                                <li>Photoshop</li>
-                            </ul>
-                        </div>
-                        <h2 class="info-column-title">Code example</h2>
-                        <div class="info-column">
-                            <pre>
-                                <code>
+	<div class="container">
+		<div class="wrapper">
+			<div class="header">
+				<div class="nav">
+					<ul>
+						<li><a href="#about-me">About me</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#english">English</a></li>
+						<li><a href="#code-example">Code example</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contakts">Contakts</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main">
+				<div class="author_information">
+					<div class="main_photo">
+						<img src="/img/photo.jpg" alt="Author's photo">
+					</div>
+					<div class="main_information">
+						<h1 class="title">Dmitry Gurinovich</h1>
+						<div class="subtitle">Front-end developer</div>
+					</div>
+				</div>
+				<div class="columns">
+					<div class="left-info-column">
+						<h2 class="info-column-title" id="contakts">Contacts</h2>
+						<div class="info-column">
+							<ul>
+								<li><a href="mailto:dmitry.gurinovich@hotmail.com">E-mail</a></li>
+								<li><a href="https://t.me/dmitry_gurinovich">Telegram</a></li>
+								<li><a href="https://www.facebook.com/gurinovich.dmitry" target="_blank">Facebook</a>
+								</li>
+							</ul>
+						</div>
+						<h2 class="info-column-title">Location</h2>
+						<div class="info-column">
+							<p>Minsk</p>
+						</div>
+						<h2 class="info-column-title" id="education">Education</h2>
+						<div class="info-column">
+							<p>Belarusian State University, <br>
+								Faculty of Mechanics and Mathematics</p>
+						</div>
+					</div>
+					<div class="right-info-column">
+						<h2 class="info-column-title" id="about-me">About me</h2>
+						<div class="info-column">
+							<p>I am from Minsk. I am 33 years old. I have graduated from Belarussian State University,
+								Mechanics and Mathematics faculty.</p>
+						</div>
+						<h2 class="info-column-title" id="skills">Skills</h2>
+						<div class="info-column">
+							<ul>
+								<li>Java</li>
+								<li>JavaScript</li>
+								<li>HTML/CSS</li>
+								<li>Git</li>
+								<li>Figma</li>
+								<li>Photoshop</li>
+							</ul>
+						</div>
+						<h2 class="info-column-title" id="code-example">Code example</h2>
+						<div class="info-column">
+							<pre>
+								<code>
 function noSpace(x){
-    var noSpaceStr = "";
-    var i;
-    for (i = 0; i &lt; x.length; i++){
-        if (x[i] !== " ") {
-            noSpaceStr = noSpaceStr + x[i];
-        }
-    }
-    return noSpaceStr;
+	var noSpaceStr = "";
+	var i;
+	for (i = 0; i &lt; x.length; i++){
+		if (x[i] !== " ") {
+			noSpaceStr = noSpaceStr + x[i];
+		}
+	}
+	return noSpaceStr;
 }
-                                </code>
-                            </pre>
-                        </div>
-                        <h2 class="info-column-title">Projects</h2>
-                        <div class="info-column">
-                            <h3>Client-server application “Archive”</h3>
-                            <ul>
-                                <li><a href="https://github.com/dmitrygurinovich/6_Tasks/tree/main/Task3_Client">Client</a></li>
-                                <li><a href="https://github.com/dmitrygurinovich/6_Tasks/tree/main/Task3_Server">Server</a></li>
-                            </ul>
-                        </div>
-                        <h2 class="info-column-title">English</h2>
-                        <div class="info-column">
-                            <p>English - A2, I have studied at the courses <a href="https://englishpapa.by/"
-                                    target="_blank">Englishpapa.by</a></p>
-                        </div>
-                    </div>
-                </div>
-                <footer>
+								</code>
+							</pre>
+						</div>
+						<h2 class="info-column-title" id="projects">Projects</h2>
+						<div class="info-column">
+							<h3>Client-server application “Archive”</h3>
+							<ul>
+								<li><a href="https://github.com/dmitrygurinovich/6_Tasks/tree/main/Task3_Client"
+										target="_blank">Client</a></li>
+								<li><a href="https://github.com/dmitrygurinovich/6_Tasks/tree/main/Task3_Server"
+										target="_blank">Server</a></li>
+							</ul>
+						</div>
+						<h2 class="info-column-title" id="english">English</h2>
+						<div class="info-column">
+							<p>English - A2, I have studied at the courses <a href="https://englishpapa.by/"
+									target="_blank">Englishpapa.by</a></p>
+						</div>
+					</div>
+				</div>
+				<footer>
+					<ul>
+						<li><a href="https://github.com/dmitrygurinovich" target="_blank"><img
+									src="/img/github-Logo.png" alt="GitHub Logo"></a></li>
+						<li>Minsk, 2022</li>
+						<li><a href="https://rs.school/js-stage0/" target="_blank"><img src="/img/logo-rsschool.png"
+									alt="RSSchool"></a></li>
+					</ul>
+				</footer>
+			</div>
 
-                </footer>
-            </div>
-
-        </div>
-    </div>
+		</div>
+	</div>
 </body>
 
 </html>
